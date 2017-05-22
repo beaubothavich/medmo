@@ -21,7 +21,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 		} else {
 			console.log('Current Temperature : ' + temp + '°C')
 			res.send('Current Temperature : ' + temp + '°C')
-  			Temperature.insert({ text: temp });
 			res.end('OK');
 		}
 	});
