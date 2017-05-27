@@ -19,10 +19,7 @@ app.post('/api/temp', Meteor.bindEnvironment((req, res) => {
 		} else {
 			console.log('Current Temperature : ' + temp + '°C')
 			res.send('Current Temperature : ' + temp + '°C')
-<<<<<<< HEAD
 			Temp.insert({ Temp: temp });
-=======
->>>>>>> e72c072f766c46f8dff4e609b49413c5322119a0
 			res.end('OK');
 		}
 	}));
