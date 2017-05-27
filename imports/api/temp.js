@@ -2,9 +2,11 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import express from 'express';
 import bodyParser from 'body-parser';
+import moment from 'moment-timezone';
 
 const app = express();
 const Temp = new Mongo.Collection('temp');
+var Bangkok = moment().tz("Asia/Bangkok").format('MMMM Do YYYY, h:mm:ss a');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 WebApp.connectHandlers.use(Meteor.bindEnvironment(app));
@@ -19,7 +21,11 @@ app.post('/api/temp', Meteor.bindEnvironment((req, res) => {
 		} else {
 			console.log('Current Temperature : ' + temp + '°C')
 			res.send('Current Temperature : ' + temp + '°C')
-			Temp.insert({ Temp: temp });
+			Temp.insert({ 
+				temp: temp,
+				created_on: Bangkok 
+
+			});
 			res.end('OK');
 		}
 	}));

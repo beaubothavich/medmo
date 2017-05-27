@@ -17,15 +17,15 @@ render() { return (
     <Navigation/>
     <h1>Login</h1>
 
-    <div class="row">
-        <form class="col s12">            
-            <div class="row">
-                <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate"/>
+    <div className="row">
+        <form className="col s12">            
+            <div className="row">
+                <div className="input-field col s6">
+                    <input placeholder="Placeholder" id="first_name" type="text" className="validate"/>
                     <label for="first_name">First Name</label>
                 </div>
-                <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate"/>
+                <div className="input-field col s6">
+                    <input id="last_name" type="text" className="validate"/>
                     <label for="last_name">Last Name</label>
                 </div>
             </div>         
