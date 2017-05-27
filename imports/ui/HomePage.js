@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Meteor } from 'meteor/meteor';
 
-import Navigation from '/imports/ui/Navigation';
+import Navigation from '/imports/ui/Navigation'; //add / infront to import from same folder
 
 export default class Login extends React.Component {
   constructor(props) {
@@ -16,12 +16,9 @@ render() { return (
 <div>
     <Navigation/>
     <h1>Login</h1>
-        
-        { this.state.error ? <p>{this.state.error}</p> : undefined }
 
     <div class="row">
-        <form class="col s12">
-            
+        <form class="col s12">            
             <div class="row">
                 <div class="input-field col s6">
                     <input placeholder="Placeholder" id="first_name" type="text" class="validate"/>
