@@ -22,7 +22,7 @@ render() { return (
             <div className="row">
                 <div className="input-field col s6">
                     <input  id="first_name" type="text" className="validate"/>
-                    <label for="first_name">First Name</label>
+                    <label htmlFor="first_name">First Name</label>
                 </div>
                 <div className="input-field col s6">
                     <input id="last_name" type="text" className="validate"/>

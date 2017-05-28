@@ -8,10 +8,7 @@ import NotFound from '../imports/ui/NotFound';
 import HomePage from '../imports/ui/HomePage';
 import Login from '../imports/ui/Login';
 import { Temp } from '../imports/api/temp';
-
-Tracker.autorun(function () {
-  console.log('Temp list', Temp.find().fetch());
-});
+Meteor.subscribe('Temp');
 
 const routes = (
   <Router history={browserHistory}>
@@ -22,7 +19,5 @@ const routes = (
 );
 
 Meteor.startup(() => {
-  ReactDOM.render(routes, document.getElementById('app'));
-  
-     
+  ReactDOM.render(routes, document.getElementById('app'));  
 });
