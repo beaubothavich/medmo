@@ -4,7 +4,7 @@ import { Meteor } from 'meteor/meteor';
 
 import Navigation from '/imports/ui/Navigation'; //add / infront to import from same folder
 
-export default class Login extends React.Component {
+export default class HomePage extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
@@ -15,22 +15,7 @@ export default class Login extends React.Component {
 render() { return (
 <div>
     <Navigation/>
-    <h1>Login</h1>
-
-    <div class="row">
-        <form class="col s12">            
-            <div class="row">
-                <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate"/>
-                    <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate"/>
-                    <label for="last_name">Last Name</label>
-                </div>
-            </div>         
-        </form>
-    </div>
+    <h1>HomePage</h1>
 </div>
     );
   }
