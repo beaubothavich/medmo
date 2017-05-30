@@ -3,7 +3,7 @@ export const Temp = new Mongo.Collection('temp');
 
 //if ran "meteor remove autopublish" must run function below
 if (Meteor.isServer) {
-    Meteor.publish('Temp', function() {
+    Meteor.publish('temp', function() {
         return Temp.find();
     });
 }

@@ -1,7 +1,7 @@
 import React from 'react';   
    
 export default class Navigation extends React.Component {
-  render() {   
+render() { 
    return (
    <nav>
     <div className="nav-wrapper">
@@ -10,6 +10,6 @@ export default class Navigation extends React.Component {
       </ul>
     </div>
   </nav>
-   )
-  }
+   );
+  };
 }

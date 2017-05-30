@@ -4,20 +4,18 @@ import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 import { Tracker } from 'meteor/tracker';
 
-import NotFound from '../imports/ui/NotFound';
-import HomePage from '../imports/ui/HomePage';
-import Login from '../imports/ui/Login';
-import { Temp } from '../imports/api/temp';
-Meteor.subscribe('Temp');
+import { routes } from './../imports/routes/routes';
+import App from './../imports/ui/App';
+import { Temp } from './../imports/api/temp';
 
-const routes = (
-  <Router history={browserHistory}>
-    <Route path="/" component={HomePage}/>
-    <Route path="/login" component={Login}/>
-    <Route path="*" component={NotFound}/>
-  </Router>
-);
+//Meteor.subscribe('temp');
 
 Meteor.startup(() => {
+  //Tracker.autorun(function () {
+  //let temp = Temp.find({}, {limit:1, sort: {created_on:-1}}).fetch();
+  //let temp = Temp.find().fetch(); //get all
   ReactDOM.render(routes, document.getElementById('app'));  
+  //ReactDOM.render(<App temp={temp}/>, document.getElementById('app'));  
 });
+//});
+//db.collection.find().limit(1).sort({$natural:-1})
