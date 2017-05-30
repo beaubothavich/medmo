@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Tracker } from 'meteor/tracker';
+import  Gauge  from 'react-svg-gauge';
 
 export default class Readings extends React.Component {
     renderTemp() {
@@ -10,6 +10,7 @@ export default class Readings extends React.Component {
                 <div key={attr._id}>
                  <p>{attr.temp} Degrees Celsius</p>
                  <p>{attr.created_on}</p>
+                 <Gauge value={attr.temp} width={400} height={320} color="#ee6e73" label="Temperature °C" />
                  <hr/>
                 </div>
             );

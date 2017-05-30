@@ -24,8 +24,8 @@ export class App extends React.Component {
 
 export default createContainer(() => {
     Meteor.subscribe('temp');
-    let temp = Temp.find().fetch();
-    //let temp = Temp.find({}, {limit:1, sort: {created_on:-1}}).fetch();
+    //let temp = Temp.find().fetch();
+    let temp = Temp.find({}, {limit:1, sort: {created_on:-1}}).fetch();
     return { 
         temp: temp.map((temp) => {
             return {
