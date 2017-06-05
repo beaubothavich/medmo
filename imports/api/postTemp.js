@@ -17,10 +17,10 @@ app.post('/api/temp', Meteor.bindEnvironment((req, res) => {
 
 		if (authToken != '65beb48699b1e32986c50ee01fc1f4d3a0343f133cfff657b584863035bb14d3') {
 			console.log('Authenticaion Failed!');
-			res.send('Authenticaion Failed!');
+			res.send('Reseponse from Server: Authenticaion Failed!');
 		} else {
 			console.log('Current Temperature : ' + temp + '°C')
-			res.send('Current Temperature : ' + temp + '°C')
+			res.send('Response from Server: Current Temperature : ' + temp + '°C')
 			Temp.insert({ 
 				temp: temp,
 				created_on: Bangkok 
