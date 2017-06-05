@@ -34,17 +34,3 @@ export default createContainer(() => {
         })
     };
 }, App);
-
-/*export default class App extends React.Component {
-        
-        
-        render() { 
-            return (
-                <div>
-                 <Navigation/>
-                 <h1>HomePage</h1>
-                 <Readings temp={this.props.temp}/>
-                </div>
-            );
-        }
-    }*/
