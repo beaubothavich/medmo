@@ -22,4 +22,4 @@ webapp
 materialize:materialize
 chart:chart
 react-meteor-data@=0.2.9
-d3js:d3
+

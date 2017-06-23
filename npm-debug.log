@@ -1,0 +1,1327 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose readDependencies loading dependencies from /home/ubuntu/workspace/projects/simple-rest-api/package.json
+5 verbose install where, deps [ '/home/ubuntu/workspace/projects/simple-rest-api',
+5 verbose install   [ 'babel-runtime',
+5 verbose install     'body-parser',
+5 verbose install     'chart.js',
+5 verbose install     'chartist',
+5 verbose install     'express',
+5 verbose install     'meteor-node-stubs',
+5 verbose install     'moment-timezone',
+5 verbose install     'prop-types',
+5 verbose install     'react',
+5 verbose install     'react-addons-pure-render-mixin',
+5 verbose install     'react-chartist',
+5 verbose install     'react-dom',
+5 verbose install     'react-router',
+5 verbose install     'react-svg-gauge' ] ]
+6 verbose install where, peers [ '/home/ubuntu/workspace/projects/simple-rest-api', [] ]
+7 verbose installManyTop reading for lifecycle /home/ubuntu/workspace/projects/simple-rest-api/package.json
+8 info preinstall simple-rest-api@
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/accepts/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/array-flatten/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/asap/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/babel-runtime/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/body-parser/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/bytes/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartist/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color-string/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-convert/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-name/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-disposition/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-type/package.json
+24 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie/package.json
+25 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie-signature/package.json
+26 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/core-js/package.json
+27 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/create-react-class/package.json
+28 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/debug/package.json
+29 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/depd/package.json
+30 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/destroy/package.json
+31 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ee-first/package.json
+32 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encodeurl/package.json
+33 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encoding/package.json
+34 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/escape-html/package.json
+35 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/etag/package.json
+36 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/express/package.json
+37 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fbjs/package.json
+38 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/finalhandler/package.json
+39 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/forwarded/package.json
+40 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fresh/package.json
+41 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/history/package.json
+42 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/hoist-non-react-statics/package.json
+43 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/http-errors/package.json
+44 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/iconv-lite/package.json
+45 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/inherits/package.json
+46 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/invariant/package.json
+47 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ipaddr.js/package.json
+48 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/is-stream/package.json
+49 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/isomorphic-fetch/package.json
+50 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/js-tokens/package.json
+51 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/lodash.isequal/package.json
+52 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/loose-envify/package.json
+53 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/media-typer/package.json
+54 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/merge-descriptors/package.json
+55 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/meteor-node-stubs/package.json
+56 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/methods/package.json
+57 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime/package.json
+58 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-db/package.json
+59 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-types/package.json
+60 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment/package.json
+61 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment-timezone/package.json
+62 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ms/package.json
+63 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/negotiator/package.json
+64 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/node-fetch/package.json
+65 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/object-assign/package.json
+66 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/on-finished/package.json
+67 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/parseurl/package.json
+68 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/path-to-regexp/package.json
+69 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/promise/package.json
+70 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/prop-types/package.json
+71 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/proxy-addr/package.json
+72 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/qs/package.json
+73 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/query-string/package.json
+74 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/range-parser/package.json
+75 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/raw-body/package.json
+76 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react/package.json
+77 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-addons-pure-render-mixin/package.json
+78 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartist/package.json
+79 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs/package.json
+80 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs-2/package.json
+81 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-dom/package.json
+82 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-router/package.json
+83 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-svg-gauge/package.json
+84 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/regenerator-runtime/package.json
+85 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/send/package.json
+86 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/serve-static/package.json
+87 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setimmediate/package.json
+88 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setprototypeof/package.json
+89 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/statuses/package.json
+90 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/strict-uri-encode/package.json
+91 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/type-is/package.json
+92 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ua-parser-js/package.json
+93 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/unpipe/package.json
+94 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/utils-merge/package.json
+95 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/vary/package.json
+96 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/warning/package.json
+97 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/whatwg-fetch/package.json
+98 info package.json color-convert@0.5.3 No license field.
+99 info package.json hoist-non-react-statics@1.2.0 No license field.
+100 info package.json mime@1.3.4 No license field.
+101 info package.json react-chartjs-2@2.1.0 No license field.
+102 info package.json utils-merge@1.0.0 No license field.
+103 verbose readDependencies loading dependencies from /home/ubuntu/workspace/projects/simple-rest-api/package.json
+104 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/accepts/package.json
+105 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/array-flatten/package.json
+106 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/asap/package.json
+107 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/babel-runtime/package.json
+108 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/body-parser/package.json
+109 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/bytes/package.json
+110 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js/package.json
+111 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartist/package.json
+112 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs/package.json
+113 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color/package.json
+114 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color-string/package.json
+115 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-convert/package.json
+116 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-name/package.json
+117 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-disposition/package.json
+118 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-type/package.json
+119 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie/package.json
+120 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie-signature/package.json
+121 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/core-js/package.json
+122 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/create-react-class/package.json
+123 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/debug/package.json
+124 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/depd/package.json
+125 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/destroy/package.json
+126 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ee-first/package.json
+127 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encodeurl/package.json
+128 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encoding/package.json
+129 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/escape-html/package.json
+130 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/etag/package.json
+131 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/express/package.json
+132 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fbjs/package.json
+133 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/finalhandler/package.json
+134 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/forwarded/package.json
+135 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fresh/package.json
+136 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/history/package.json
+137 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/hoist-non-react-statics/package.json
+138 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/http-errors/package.json
+139 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/iconv-lite/package.json
+140 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/inherits/package.json
+141 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/invariant/package.json
+142 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ipaddr.js/package.json
+143 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/is-stream/package.json
+144 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/isomorphic-fetch/package.json
+145 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/js-tokens/package.json
+146 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/lodash.isequal/package.json
+147 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/loose-envify/package.json
+148 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/media-typer/package.json
+149 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/merge-descriptors/package.json
+150 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/meteor-node-stubs/package.json
+151 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/methods/package.json
+152 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime/package.json
+153 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-db/package.json
+154 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-types/package.json
+155 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment/package.json
+156 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment-timezone/package.json
+157 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ms/package.json
+158 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/negotiator/package.json
+159 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/node-fetch/package.json
+160 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/object-assign/package.json
+161 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/on-finished/package.json
+162 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/parseurl/package.json
+163 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/path-to-regexp/package.json
+164 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/promise/package.json
+165 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/prop-types/package.json
+166 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/proxy-addr/package.json
+167 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/qs/package.json
+168 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/query-string/package.json
+169 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/range-parser/package.json
+170 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/raw-body/package.json
+171 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react/package.json
+172 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-addons-pure-render-mixin/package.json
+173 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartist/package.json
+174 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs/package.json
+175 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs-2/package.json
+176 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-dom/package.json
+177 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-router/package.json
+178 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-svg-gauge/package.json
+179 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/regenerator-runtime/package.json
+180 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/send/package.json
+181 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/serve-static/package.json
+182 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setimmediate/package.json
+183 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setprototypeof/package.json
+184 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/statuses/package.json
+185 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/strict-uri-encode/package.json
+186 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/type-is/package.json
+187 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ua-parser-js/package.json
+188 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/unpipe/package.json
+189 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/utils-merge/package.json
+190 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/vary/package.json
+191 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/warning/package.json
+192 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/whatwg-fetch/package.json
+193 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/loose-envify/package.json
+194 verbose targetResolver reading package data from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/mime/package.json
+195 verbose already installed skipping prop-types@^15.5.10 /home/ubuntu/workspace/projects/simple-rest-api
+196 verbose already installed skipping react@^15.4.1 /home/ubuntu/workspace/projects/simple-rest-api
+197 verbose already installed skipping react-addons-pure-render-mixin@^15.4.1 /home/ubuntu/workspace/projects/simple-rest-api
+198 verbose already installed skipping react-chartist@^0.13.0 /home/ubuntu/workspace/projects/simple-rest-api
+199 verbose already installed skipping react-dom@^15.4.1 /home/ubuntu/workspace/projects/simple-rest-api
+200 verbose already installed skipping react-router@^3.0.0 /home/ubuntu/workspace/projects/simple-rest-api
+201 verbose already installed skipping react-svg-gauge@^1.0.4 /home/ubuntu/workspace/projects/simple-rest-api
+202 verbose already installed skipping babel-runtime@^6.20.0 /home/ubuntu/workspace/projects/simple-rest-api
+203 verbose already installed skipping body-parser@^1.17.1 /home/ubuntu/workspace/projects/simple-rest-api
+204 silly cache add args [ 'chart.js@^1.1.1', null ]
+205 verbose cache add spec chart.js@^1.1.1
+206 silly cache add parsed spec Result {
+206 silly cache add   raw: 'chart.js@^1.1.1',
+206 silly cache add   scope: null,
+206 silly cache add   name: 'chart.js',
+206 silly cache add   rawSpec: '^1.1.1',
+206 silly cache add   spec: '>=1.1.1 <2.0.0',
+206 silly cache add   type: 'range' }
+207 silly addNamed chart.js@>=1.1.1 <2.0.0
+208 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for chart.js
+209 silly addNameRange { name: 'chart.js', range: '>=1.1.1 <2.0.0', hasData: false }
+210 silly mapToRegistry name chart.js
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'chart.js',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   name: 'chart.js',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+215 verbose addNameRange registry:https://registry.npmjs.org/chart.js not in flight; fetching
+216 verbose already installed skipping chartist@^0.11.0 /home/ubuntu/workspace/projects/simple-rest-api
+217 verbose already installed skipping express@^4.15.3 /home/ubuntu/workspace/projects/simple-rest-api
+218 verbose already installed skipping meteor-node-stubs@~0.2.4 /home/ubuntu/workspace/projects/simple-rest-api
+219 verbose already installed skipping moment-timezone@^0.5.13 /home/ubuntu/workspace/projects/simple-rest-api
+220 verbose request uri https://registry.npmjs.org/chart.js
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 1:04:16 PM
+223 verbose request id 8a29211abd486a7c
+224 verbose etag W/"5926e520-c3f3"
+225 verbose lastModified Thu, 25 May 2017 14:07:28 GMT
+226 http request GET https://registry.npmjs.org/chart.js
+227 http 200 https://registry.npmjs.org/chart.js
+228 verbose headers { server: 'nginx/1.10.3',
+228 verbose headers   'content-type': 'application/json',
+228 verbose headers   'last-modified': 'Sat, 03 Jun 2017 16:03:36 GMT',
+228 verbose headers   etag: 'W/"5932ddd8-c405"',
+228 verbose headers   'content-encoding': 'gzip',
+228 verbose headers   'cache-control': 'max-age=300',
+228 verbose headers   'content-length': '5918',
+228 verbose headers   'accept-ranges': 'bytes',
+228 verbose headers   date: 'Mon, 05 Jun 2017 13:04:17 GMT',
+228 verbose headers   via: '1.1 varnish',
+228 verbose headers   age: '0',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'x-served-by': 'cache-hkg6826-HKG',
+228 verbose headers   'x-cache': 'HIT',
+228 verbose headers   'x-cache-hits': '1',
+228 verbose headers   'x-timer': 'S1496667857.140113,VS0,VE620',
+228 verbose headers   vary: 'Accept-Encoding' }
+229 silly get cb [ 200,
+229 silly get   { server: 'nginx/1.10.3',
+229 silly get     'content-type': 'application/json',
+229 silly get     'last-modified': 'Sat, 03 Jun 2017 16:03:36 GMT',
+229 silly get     etag: 'W/"5932ddd8-c405"',
+229 silly get     'content-encoding': 'gzip',
+229 silly get     'cache-control': 'max-age=300',
+229 silly get     'content-length': '5918',
+229 silly get     'accept-ranges': 'bytes',
+229 silly get     date: 'Mon, 05 Jun 2017 13:04:17 GMT',
+229 silly get     via: '1.1 varnish',
+229 silly get     age: '0',
+229 silly get     connection: 'keep-alive',
+229 silly get     'x-served-by': 'cache-hkg6826-HKG',
+229 silly get     'x-cache': 'HIT',
+229 silly get     'x-cache-hits': '1',
+229 silly get     'x-timer': 'S1496667857.140113,VS0,VE620',
+229 silly get     vary: 'Accept-Encoding' } ]
+230 verbose get saving chart.js to /home/ubuntu/.npm/registry.npmjs.org/chart.js/.cache.json
+231 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+232 silly addNameRange number 2 { name: 'chart.js', range: '>=1.1.1 <2.0.0', hasData: true }
+233 silly addNameRange versions [ 'chart.js',
+233 silly addNameRange   [ '1.0.1-beta.2',
+233 silly addNameRange     '1.0.1',
+233 silly addNameRange     '1.0.2',
+233 silly addNameRange     '1.1.0',
+233 silly addNameRange     '1.1.1',
+233 silly addNameRange     '2.0.0',
+233 silly addNameRange     '2.0.1',
+233 silly addNameRange     '2.0.2',
+233 silly addNameRange     '2.1.0',
+233 silly addNameRange     '2.1.1',
+233 silly addNameRange     '2.1.2',
+233 silly addNameRange     '2.1.3',
+233 silly addNameRange     '2.1.4',
+233 silly addNameRange     '2.1.5',
+233 silly addNameRange     '2.1.6',
+233 silly addNameRange     '2.2.0-rc.1',
+233 silly addNameRange     '2.2.0-rc.2',
+233 silly addNameRange     '2.2.0',
+233 silly addNameRange     '2.2.1',
+233 silly addNameRange     '2.2.2',
+233 silly addNameRange     '2.3.0-rc.1',
+233 silly addNameRange     '2.3.0',
+233 silly addNameRange     '2.4.0',
+233 silly addNameRange     '2.5.0',
+233 silly addNameRange     '2.6.0' ] ]
+234 silly addNamed chart.js@1.1.1
+235 verbose addNamed "1.1.1" is a plain semver version for chart.js
+236 silly cache afterAdd chart.js@1.1.1
+237 verbose afterAdd /home/ubuntu/.npm/chart.js/1.1.1/package/package.json not in flight; writing
+238 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+239 verbose afterAdd /home/ubuntu/.npm/chart.js/1.1.1/package/package.json written
+240 silly install resolved [ { name: 'chart.js',
+240 silly install resolved     homepage: 'http://www.chartjs.org',
+240 silly install resolved     description: 'Simple HTML5 charts using the canvas element.',
+240 silly install resolved     version: '1.1.1',
+240 silly install resolved     main: 'Chart.js',
+240 silly install resolved     repository:
+240 silly install resolved      { type: 'git',
+240 silly install resolved        url: 'git+https://github.com/nnnick/Chart.js.git' },
+240 silly install resolved     license: 'MIT',
+240 silly install resolved     dependences: {},
+240 silly install resolved     devDependencies:
+240 silly install resolved      { gulp: '3.9.x',
+240 silly install resolved        'gulp-concat': '~2.1.x',
+240 silly install resolved        'gulp-connect': '~2.0.5',
+240 silly install resolved        'gulp-jshint': '~1.5.1',
+240 silly install resolved        'gulp-replace': '^0.4.0',
+240 silly install resolved        'gulp-size': '~0.4.0',
+240 silly install resolved        'gulp-uglify': '~1.5.x',
+240 silly install resolved        'gulp-util': '~2.2.x',
+240 silly install resolved        'gulp-html-validator': '^0.0.2',
+240 silly install resolved        inquirer: '^0.5.1',
+240 silly install resolved        semver: '^3.0.1',
+240 silly install resolved        'gulp-livereload': '^3.8.0' },
+240 silly install resolved     spm: { main: 'Chart.js' },
+240 silly install resolved     gitHead: 'a62537a80029cd5a2e230769a652904e2de2d5d4',
+240 silly install resolved     bugs: { url: 'https://github.com/nnnick/Chart.js/issues' },
+240 silly install resolved     _id: 'chart.js@1.1.1',
+240 silly install resolved     scripts: {},
+240 silly install resolved     _shasum: 'a9b17054220bd45cbdb176fd6bcb8783ef871a7d',
+240 silly install resolved     _from: 'chart.js@>=1.1.1 <2.0.0',
+240 silly install resolved     _npmVersion: '3.7.3',
+240 silly install resolved     _nodeVersion: '4.2.6',
+240 silly install resolved     _npmUser: { name: 'tannerlinsley', email: 'tannerlinsley@gmail.com' },
+240 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+240 silly install resolved     dist:
+240 silly install resolved      { shasum: 'a9b17054220bd45cbdb176fd6bcb8783ef871a7d',
+240 silly install resolved        tarball: 'https://registry.npmjs.org/chart.js/-/chart.js-1.1.1.tgz' },
+240 silly install resolved     _npmOperationalInternal:
+240 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+240 silly install resolved        tmp: 'tmp/chart.js-1.1.1.tgz_1459896878690_0.1684930867049843' },
+240 silly install resolved     directories: {},
+240 silly install resolved     _resolved: 'https://registry.npmjs.org/chart.js/-/chart.js-1.1.1.tgz',
+240 silly install resolved     readme: 'ERROR: No README data found!' } ]
+241 info install chart.js@1.1.1 into /home/ubuntu/workspace/projects/simple-rest-api
+242 info installOne chart.js@1.1.1
+243 verbose installOne of chart.js to /home/ubuntu/workspace/projects/simple-rest-api not in flight; installing
+244 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+245 verbose lock using /home/ubuntu/.npm/_locks/chart-js-a29fef676878ab10.lock for /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+246 silly install write writing chart.js 1.1.1 to /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+247 verbose unbuild node_modules/chart.js
+248 info preuninstall chart.js@2.6.0
+249 info uninstall chart.js@2.6.0
+250 verbose unbuild rmStuff chart.js@2.6.0 from /home/ubuntu/workspace/projects/simple-rest-api/node_modules
+251 info postuninstall chart.js@2.6.0
+252 silly gentlyRm /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js is being purged from base /home/ubuntu/workspace/projects/simple-rest-api
+253 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+254 silly vacuum-fs purging /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+255 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/projects/simple-rest-api/node_modules
+256 verbose tar unpack /home/ubuntu/.npm/chart.js/1.1.1/package.tgz
+257 verbose tar unpacking to /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+258 silly gentlyRm /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js is being purged
+259 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+260 silly gunzTarPerm modes [ '755', '644' ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm extractEntry .npmignore
+263 silly gunzTarPerm extractEntry README.md
+264 silly gunzTarPerm extractEntry Chart.js
+265 silly gunzTarPerm extractEntry Chart.min.js
+266 silly gunzTarPerm extractEntry gulpfile.js
+267 silly gunzTarPerm extractEntry LICENSE.md
+268 silly gunzTarPerm extractEntry CONTRIBUTING.md
+269 silly gunzTarPerm extractEntry .eslintignore
+270 silly gunzTarPerm extractEntry .eslintrc
+271 silly gunzTarPerm extractEntry .codeclimate.yml
+272 silly gunzTarPerm extractEntry bower.json
+273 silly gunzTarPerm extractEntry composer.json
+274 silly gunzTarPerm extractEntry docs/00-Getting-Started.md
+275 silly gunzTarPerm extractEntry docs/01-Line-Chart.md
+276 silly gunzTarPerm extractEntry docs/02-Bar-Chart.md
+277 silly gunzTarPerm extractEntry docs/03-Radar-Chart.md
+278 silly gunzTarPerm extractEntry docs/04-Polar-Area-Chart.md
+279 silly gunzTarPerm extractEntry docs/05-Pie-Doughnut-Chart.md
+280 silly gunzTarPerm extractEntry docs/06-Advanced.md
+281 silly gunzTarPerm extractEntry docs/07-Notes.md
+282 silly gunzTarPerm extractEntry samples/bar.html
+283 silly gunzTarPerm extractEntry samples/doughnut.color.html
+284 silly gunzTarPerm extractEntry samples/doughnut.html
+285 silly gunzTarPerm extractEntry samples/line-customTooltips.html
+286 silly gunzTarPerm extractEntry samples/line.html
+287 silly gunzTarPerm extractEntry samples/pie-customTooltips.html
+288 silly gunzTarPerm extractEntry samples/pie.html
+289 silly gunzTarPerm extractEntry samples/polar-area.html
+290 silly gunzTarPerm extractEntry samples/radar.html
+291 silly gunzTarPerm extractEntry .travis.yml
+292 silly gunzTarPerm extractEntry src/Chart.Bar.js
+293 silly gunzTarPerm extractEntry src/Chart.Core.js
+294 silly gunzTarPerm extractEntry src/Chart.Doughnut.js
+295 silly gunzTarPerm extractEntry src/Chart.Line.js
+296 silly gunzTarPerm extractEntry src/Chart.PolarArea.js
+297 silly gunzTarPerm extractEntry src/Chart.Radar.js
+298 verbose write writing to /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js/package.json
+299 info preinstall chart.js@1.1.1
+300 verbose readDependencies loading dependencies from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js/package.json
+301 verbose readDependencies loading dependencies from /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js/package.json
+302 silly install resolved []
+303 verbose about to build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+304 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+305 info linkStuff chart.js@1.1.1
+306 silly linkStuff chart.js@1.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+307 verbose linkBins chart.js@1.1.1
+308 verbose linkMans chart.js@1.1.1
+309 verbose rebuildBundles chart.js@1.1.1
+310 info install chart.js@1.1.1
+311 info postinstall chart.js@1.1.1
+312 verbose unlock done using /home/ubuntu/.npm/_locks/chart-js-a29fef676878ab10.lock for /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chart.js
+313 info build /home/ubuntu/workspace/projects/simple-rest-api
+314 info linkStuff simple-rest-api@
+315 silly linkStuff simple-rest-api@ has /home/ubuntu/workspace/projects as its parent node_modules
+316 verbose linkBins simple-rest-api@
+317 verbose linkMans simple-rest-api@
+318 verbose rebuildBundles simple-rest-api@
+319 verbose rebuildBundles [ '.bin',
+319 verbose rebuildBundles   'accepts',
+319 verbose rebuildBundles   'array-flatten',
+319 verbose rebuildBundles   'asap',
+319 verbose rebuildBundles   'babel-runtime',
+319 verbose rebuildBundles   'body-parser',
+319 verbose rebuildBundles   'bytes',
+319 verbose rebuildBundles   'chart.js',
+319 verbose rebuildBundles   'chartist',
+319 verbose rebuildBundles   'chartjs',
+319 verbose rebuildBundles   'chartjs-color',
+319 verbose rebuildBundles   'chartjs-color-string',
+319 verbose rebuildBundles   'color-convert',
+319 verbose rebuildBundles   'color-name',
+319 verbose rebuildBundles   'content-disposition',
+319 verbose rebuildBundles   'content-type',
+319 verbose rebuildBundles   'cookie',
+319 verbose rebuildBundles   'cookie-signature',
+319 verbose rebuildBundles   'core-js',
+319 verbose rebuildBundles   'create-react-class',
+319 verbose rebuildBundles   'debug',
+319 verbose rebuildBundles   'depd',
+319 verbose rebuildBundles   'destroy',
+319 verbose rebuildBundles   'ee-first',
+319 verbose rebuildBundles   'encodeurl',
+319 verbose rebuildBundles   'encoding',
+319 verbose rebuildBundles   'escape-html',
+319 verbose rebuildBundles   'etag',
+319 verbose rebuildBundles   'express',
+319 verbose rebuildBundles   'fbjs',
+319 verbose rebuildBundles   'finalhandler',
+319 verbose rebuildBundles   'forwarded',
+319 verbose rebuildBundles   'fresh',
+319 verbose rebuildBundles   'history',
+319 verbose rebuildBundles   'hoist-non-react-statics',
+319 verbose rebuildBundles   'http-errors',
+319 verbose rebuildBundles   'iconv-lite',
+319 verbose rebuildBundles   'inherits',
+319 verbose rebuildBundles   'invariant',
+319 verbose rebuildBundles   'ipaddr.js',
+319 verbose rebuildBundles   'is-stream',
+319 verbose rebuildBundles   'isomorphic-fetch',
+319 verbose rebuildBundles   'js-tokens',
+319 verbose rebuildBundles   'lodash.isequal',
+319 verbose rebuildBundles   'loose-envify',
+319 verbose rebuildBundles   'media-typer',
+319 verbose rebuildBundles   'merge-descriptors',
+319 verbose rebuildBundles   'meteor-node-stubs',
+319 verbose rebuildBundles   'methods',
+319 verbose rebuildBundles   'mime',
+319 verbose rebuildBundles   'mime-db',
+319 verbose rebuildBundles   'mime-types',
+319 verbose rebuildBundles   'moment',
+319 verbose rebuildBundles   'moment-timezone',
+319 verbose rebuildBundles   'ms',
+319 verbose rebuildBundles   'negotiator',
+319 verbose rebuildBundles   'node-fetch',
+319 verbose rebuildBundles   'object-assign',
+319 verbose rebuildBundles   'on-finished',
+319 verbose rebuildBundles   'parseurl',
+319 verbose rebuildBundles   'path-to-regexp',
+319 verbose rebuildBundles   'promise',
+319 verbose rebuildBundles   'prop-types',
+319 verbose rebuildBundles   'proxy-addr',
+319 verbose rebuildBundles   'qs',
+319 verbose rebuildBundles   'query-string',
+319 verbose rebuildBundles   'range-parser',
+319 verbose rebuildBundles   'raw-body',
+319 verbose rebuildBundles   'react',
+319 verbose rebuildBundles   'react-addons-pure-render-mixin',
+319 verbose rebuildBundles   'react-chartist',
+319 verbose rebuildBundles   'react-chartjs',
+319 verbose rebuildBundles   'react-chartjs-2',
+319 verbose rebuildBundles   'react-dom',
+319 verbose rebuildBundles   'react-router',
+319 verbose rebuildBundles   'react-svg-gauge',
+319 verbose rebuildBundles   'regenerator-runtime',
+319 verbose rebuildBundles   'send',
+319 verbose rebuildBundles   'serve-static',
+319 verbose rebuildBundles   'setimmediate',
+319 verbose rebuildBundles   'setprototypeof',
+319 verbose rebuildBundles   'statuses',
+319 verbose rebuildBundles   'strict-uri-encode',
+319 verbose rebuildBundles   'type-is',
+319 verbose rebuildBundles   'ua-parser-js',
+319 verbose rebuildBundles   'unpipe',
+319 verbose rebuildBundles   'utils-merge',
+319 verbose rebuildBundles   'vary',
+319 verbose rebuildBundles   'warning',
+319 verbose rebuildBundles   'whatwg-fetch' ]
+320 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/accepts
+321 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/accepts
+322 info preinstall accepts@1.3.3
+323 info linkStuff accepts@1.3.3
+324 silly linkStuff accepts@1.3.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+325 verbose linkBins accepts@1.3.3
+326 verbose linkMans accepts@1.3.3
+327 verbose rebuildBundles accepts@1.3.3
+328 info install accepts@1.3.3
+329 info postinstall accepts@1.3.3
+330 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/array-flatten
+331 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/array-flatten
+332 info preinstall array-flatten@1.1.1
+333 info linkStuff array-flatten@1.1.1
+334 silly linkStuff array-flatten@1.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+335 verbose linkBins array-flatten@1.1.1
+336 verbose linkMans array-flatten@1.1.1
+337 verbose rebuildBundles array-flatten@1.1.1
+338 info install array-flatten@1.1.1
+339 info postinstall array-flatten@1.1.1
+340 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/asap
+341 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/asap
+342 info preinstall asap@2.0.5
+343 info linkStuff asap@2.0.5
+344 silly linkStuff asap@2.0.5 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+345 verbose linkBins asap@2.0.5
+346 verbose linkMans asap@2.0.5
+347 verbose rebuildBundles asap@2.0.5
+348 info install asap@2.0.5
+349 info postinstall asap@2.0.5
+350 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/bytes
+351 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/bytes
+352 info preinstall bytes@2.4.0
+353 info linkStuff bytes@2.4.0
+354 silly linkStuff bytes@2.4.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+355 verbose linkBins bytes@2.4.0
+356 verbose linkMans bytes@2.4.0
+357 verbose rebuildBundles bytes@2.4.0
+358 info install bytes@2.4.0
+359 info postinstall bytes@2.4.0
+360 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs
+361 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs
+362 info preinstall chartjs@0.3.24
+363 info linkStuff chartjs@0.3.24
+364 silly linkStuff chartjs@0.3.24 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+365 verbose linkBins chartjs@0.3.24
+366 verbose linkMans chartjs@0.3.24
+367 verbose rebuildBundles chartjs@0.3.24
+368 info install chartjs@0.3.24
+369 info postinstall chartjs@0.3.24
+370 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color
+371 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color
+372 info preinstall chartjs-color@2.1.0
+373 info linkStuff chartjs-color@2.1.0
+374 silly linkStuff chartjs-color@2.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+375 verbose linkBins chartjs-color@2.1.0
+376 verbose linkMans chartjs-color@2.1.0
+377 verbose rebuildBundles chartjs-color@2.1.0
+378 info install chartjs-color@2.1.0
+379 info postinstall chartjs-color@2.1.0
+380 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color-string
+381 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/chartjs-color-string
+382 info preinstall chartjs-color-string@0.4.0
+383 info linkStuff chartjs-color-string@0.4.0
+384 silly linkStuff chartjs-color-string@0.4.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+385 verbose linkBins chartjs-color-string@0.4.0
+386 verbose linkMans chartjs-color-string@0.4.0
+387 verbose rebuildBundles chartjs-color-string@0.4.0
+388 info install chartjs-color-string@0.4.0
+389 info postinstall chartjs-color-string@0.4.0
+390 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-convert
+391 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-convert
+392 info preinstall color-convert@0.5.3
+393 info linkStuff color-convert@0.5.3
+394 silly linkStuff color-convert@0.5.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+395 verbose linkBins color-convert@0.5.3
+396 verbose linkMans color-convert@0.5.3
+397 verbose rebuildBundles color-convert@0.5.3
+398 info install color-convert@0.5.3
+399 info postinstall color-convert@0.5.3
+400 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-name
+401 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/color-name
+402 info preinstall color-name@1.1.2
+403 info linkStuff color-name@1.1.2
+404 silly linkStuff color-name@1.1.2 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+405 verbose linkBins color-name@1.1.2
+406 verbose linkMans color-name@1.1.2
+407 verbose rebuildBundles color-name@1.1.2
+408 info install color-name@1.1.2
+409 info postinstall color-name@1.1.2
+410 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-disposition
+411 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-disposition
+412 info preinstall content-disposition@0.5.2
+413 info linkStuff content-disposition@0.5.2
+414 silly linkStuff content-disposition@0.5.2 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+415 verbose linkBins content-disposition@0.5.2
+416 verbose linkMans content-disposition@0.5.2
+417 verbose rebuildBundles content-disposition@0.5.2
+418 info install content-disposition@0.5.2
+419 info postinstall content-disposition@0.5.2
+420 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-type
+421 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/content-type
+422 info preinstall content-type@1.0.2
+423 info linkStuff content-type@1.0.2
+424 silly linkStuff content-type@1.0.2 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+425 verbose linkBins content-type@1.0.2
+426 verbose linkMans content-type@1.0.2
+427 verbose rebuildBundles content-type@1.0.2
+428 info install content-type@1.0.2
+429 info postinstall content-type@1.0.2
+430 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie
+431 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie
+432 info preinstall cookie@0.3.1
+433 info linkStuff cookie@0.3.1
+434 silly linkStuff cookie@0.3.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+435 verbose linkBins cookie@0.3.1
+436 verbose linkMans cookie@0.3.1
+437 verbose rebuildBundles cookie@0.3.1
+438 info install cookie@0.3.1
+439 info postinstall cookie@0.3.1
+440 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie-signature
+441 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/cookie-signature
+442 info preinstall cookie-signature@1.0.6
+443 info linkStuff cookie-signature@1.0.6
+444 silly linkStuff cookie-signature@1.0.6 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+445 verbose linkBins cookie-signature@1.0.6
+446 verbose linkMans cookie-signature@1.0.6
+447 verbose rebuildBundles cookie-signature@1.0.6
+448 info install cookie-signature@1.0.6
+449 info postinstall cookie-signature@1.0.6
+450 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/core-js
+451 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/core-js
+452 info preinstall core-js@2.4.1
+453 info linkStuff core-js@2.4.1
+454 silly linkStuff core-js@2.4.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+455 verbose linkBins core-js@2.4.1
+456 verbose linkMans core-js@2.4.1
+457 verbose rebuildBundles core-js@2.4.1
+458 info install core-js@2.4.1
+459 info postinstall core-js@2.4.1
+460 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/create-react-class
+461 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/create-react-class
+462 info preinstall create-react-class@15.5.3
+463 info linkStuff create-react-class@15.5.3
+464 silly linkStuff create-react-class@15.5.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+465 verbose linkBins create-react-class@15.5.3
+466 verbose linkMans create-react-class@15.5.3
+467 verbose rebuildBundles create-react-class@15.5.3
+468 info install create-react-class@15.5.3
+469 info postinstall create-react-class@15.5.3
+470 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/debug
+471 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/debug
+472 info preinstall debug@2.6.7
+473 info linkStuff debug@2.6.7
+474 silly linkStuff debug@2.6.7 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+475 verbose linkBins debug@2.6.7
+476 verbose linkMans debug@2.6.7
+477 verbose rebuildBundles debug@2.6.7
+478 info install debug@2.6.7
+479 info postinstall debug@2.6.7
+480 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/depd
+481 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/depd
+482 info preinstall depd@1.1.0
+483 info linkStuff depd@1.1.0
+484 silly linkStuff depd@1.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+485 verbose linkBins depd@1.1.0
+486 verbose linkMans depd@1.1.0
+487 verbose rebuildBundles depd@1.1.0
+488 info install depd@1.1.0
+489 info postinstall depd@1.1.0
+490 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/destroy
+491 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/destroy
+492 info preinstall destroy@1.0.4
+493 info linkStuff destroy@1.0.4
+494 silly linkStuff destroy@1.0.4 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+495 verbose linkBins destroy@1.0.4
+496 verbose linkMans destroy@1.0.4
+497 verbose rebuildBundles destroy@1.0.4
+498 info install destroy@1.0.4
+499 info postinstall destroy@1.0.4
+500 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ee-first
+501 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ee-first
+502 info preinstall ee-first@1.1.1
+503 info linkStuff ee-first@1.1.1
+504 silly linkStuff ee-first@1.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+505 verbose linkBins ee-first@1.1.1
+506 verbose linkMans ee-first@1.1.1
+507 verbose rebuildBundles ee-first@1.1.1
+508 info install ee-first@1.1.1
+509 info postinstall ee-first@1.1.1
+510 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encodeurl
+511 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encodeurl
+512 info preinstall encodeurl@1.0.1
+513 info linkStuff encodeurl@1.0.1
+514 silly linkStuff encodeurl@1.0.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+515 verbose linkBins encodeurl@1.0.1
+516 verbose linkMans encodeurl@1.0.1
+517 verbose rebuildBundles encodeurl@1.0.1
+518 info install encodeurl@1.0.1
+519 info postinstall encodeurl@1.0.1
+520 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encoding
+521 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/encoding
+522 info preinstall encoding@0.1.12
+523 info linkStuff encoding@0.1.12
+524 silly linkStuff encoding@0.1.12 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+525 verbose linkBins encoding@0.1.12
+526 verbose linkMans encoding@0.1.12
+527 verbose rebuildBundles encoding@0.1.12
+528 info install encoding@0.1.12
+529 info postinstall encoding@0.1.12
+530 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/escape-html
+531 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/escape-html
+532 info preinstall escape-html@1.0.3
+533 info linkStuff escape-html@1.0.3
+534 silly linkStuff escape-html@1.0.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+535 verbose linkBins escape-html@1.0.3
+536 verbose linkMans escape-html@1.0.3
+537 verbose rebuildBundles escape-html@1.0.3
+538 info install escape-html@1.0.3
+539 info postinstall escape-html@1.0.3
+540 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/etag
+541 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/etag
+542 info preinstall etag@1.8.0
+543 info linkStuff etag@1.8.0
+544 silly linkStuff etag@1.8.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+545 verbose linkBins etag@1.8.0
+546 verbose linkMans etag@1.8.0
+547 verbose rebuildBundles etag@1.8.0
+548 info install etag@1.8.0
+549 info postinstall etag@1.8.0
+550 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fbjs
+551 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fbjs
+552 info preinstall fbjs@0.8.12
+553 info linkStuff fbjs@0.8.12
+554 silly linkStuff fbjs@0.8.12 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+555 verbose linkBins fbjs@0.8.12
+556 verbose linkMans fbjs@0.8.12
+557 verbose rebuildBundles fbjs@0.8.12
+558 verbose rebuildBundles [ 'core-js' ]
+559 info install fbjs@0.8.12
+560 info postinstall fbjs@0.8.12
+561 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/finalhandler
+562 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/finalhandler
+563 info preinstall finalhandler@1.0.3
+564 info linkStuff finalhandler@1.0.3
+565 silly linkStuff finalhandler@1.0.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+566 verbose linkBins finalhandler@1.0.3
+567 verbose linkMans finalhandler@1.0.3
+568 verbose rebuildBundles finalhandler@1.0.3
+569 info install finalhandler@1.0.3
+570 info postinstall finalhandler@1.0.3
+571 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/forwarded
+572 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/forwarded
+573 info preinstall forwarded@0.1.0
+574 info linkStuff forwarded@0.1.0
+575 silly linkStuff forwarded@0.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+576 verbose linkBins forwarded@0.1.0
+577 verbose linkMans forwarded@0.1.0
+578 verbose rebuildBundles forwarded@0.1.0
+579 info install forwarded@0.1.0
+580 info postinstall forwarded@0.1.0
+581 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fresh
+582 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/fresh
+583 info preinstall fresh@0.5.0
+584 info linkStuff fresh@0.5.0
+585 silly linkStuff fresh@0.5.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+586 verbose linkBins fresh@0.5.0
+587 verbose linkMans fresh@0.5.0
+588 verbose rebuildBundles fresh@0.5.0
+589 info install fresh@0.5.0
+590 info postinstall fresh@0.5.0
+591 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/history
+592 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/history
+593 info preinstall history@3.3.0
+594 info linkStuff history@3.3.0
+595 silly linkStuff history@3.3.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+596 verbose linkBins history@3.3.0
+597 verbose linkMans history@3.3.0
+598 verbose rebuildBundles history@3.3.0
+599 info install history@3.3.0
+600 info postinstall history@3.3.0
+601 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/hoist-non-react-statics
+602 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/hoist-non-react-statics
+603 info preinstall hoist-non-react-statics@1.2.0
+604 info linkStuff hoist-non-react-statics@1.2.0
+605 silly linkStuff hoist-non-react-statics@1.2.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+606 verbose linkBins hoist-non-react-statics@1.2.0
+607 verbose linkMans hoist-non-react-statics@1.2.0
+608 verbose rebuildBundles hoist-non-react-statics@1.2.0
+609 info install hoist-non-react-statics@1.2.0
+610 info postinstall hoist-non-react-statics@1.2.0
+611 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/http-errors
+612 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/http-errors
+613 info preinstall http-errors@1.6.1
+614 info linkStuff http-errors@1.6.1
+615 silly linkStuff http-errors@1.6.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+616 verbose linkBins http-errors@1.6.1
+617 verbose linkMans http-errors@1.6.1
+618 verbose rebuildBundles http-errors@1.6.1
+619 info install http-errors@1.6.1
+620 info postinstall http-errors@1.6.1
+621 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/iconv-lite
+622 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/iconv-lite
+623 info preinstall iconv-lite@0.4.15
+624 info linkStuff iconv-lite@0.4.15
+625 silly linkStuff iconv-lite@0.4.15 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+626 verbose linkBins iconv-lite@0.4.15
+627 verbose linkMans iconv-lite@0.4.15
+628 verbose rebuildBundles iconv-lite@0.4.15
+629 info install iconv-lite@0.4.15
+630 info postinstall iconv-lite@0.4.15
+631 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/inherits
+632 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/inherits
+633 info preinstall inherits@2.0.3
+634 info linkStuff inherits@2.0.3
+635 silly linkStuff inherits@2.0.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+636 verbose linkBins inherits@2.0.3
+637 verbose linkMans inherits@2.0.3
+638 verbose rebuildBundles inherits@2.0.3
+639 info install inherits@2.0.3
+640 info postinstall inherits@2.0.3
+641 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/invariant
+642 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/invariant
+643 info preinstall invariant@2.2.2
+644 info linkStuff invariant@2.2.2
+645 silly linkStuff invariant@2.2.2 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+646 verbose linkBins invariant@2.2.2
+647 verbose linkMans invariant@2.2.2
+648 verbose rebuildBundles invariant@2.2.2
+649 info install invariant@2.2.2
+650 info postinstall invariant@2.2.2
+651 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ipaddr.js
+652 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ipaddr.js
+653 info preinstall ipaddr.js@1.3.0
+654 info linkStuff ipaddr.js@1.3.0
+655 silly linkStuff ipaddr.js@1.3.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+656 verbose linkBins ipaddr.js@1.3.0
+657 verbose linkMans ipaddr.js@1.3.0
+658 verbose rebuildBundles ipaddr.js@1.3.0
+659 info install ipaddr.js@1.3.0
+660 info postinstall ipaddr.js@1.3.0
+661 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/is-stream
+662 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/is-stream
+663 info preinstall is-stream@1.1.0
+664 info linkStuff is-stream@1.1.0
+665 silly linkStuff is-stream@1.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+666 verbose linkBins is-stream@1.1.0
+667 verbose linkMans is-stream@1.1.0
+668 verbose rebuildBundles is-stream@1.1.0
+669 info install is-stream@1.1.0
+670 info postinstall is-stream@1.1.0
+671 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/isomorphic-fetch
+672 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/isomorphic-fetch
+673 info preinstall isomorphic-fetch@2.2.1
+674 info linkStuff isomorphic-fetch@2.2.1
+675 silly linkStuff isomorphic-fetch@2.2.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+676 verbose linkBins isomorphic-fetch@2.2.1
+677 verbose linkMans isomorphic-fetch@2.2.1
+678 verbose rebuildBundles isomorphic-fetch@2.2.1
+679 info install isomorphic-fetch@2.2.1
+680 info postinstall isomorphic-fetch@2.2.1
+681 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/js-tokens
+682 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/js-tokens
+683 info preinstall js-tokens@3.0.1
+684 info linkStuff js-tokens@3.0.1
+685 silly linkStuff js-tokens@3.0.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+686 verbose linkBins js-tokens@3.0.1
+687 verbose linkMans js-tokens@3.0.1
+688 verbose rebuildBundles js-tokens@3.0.1
+689 info install js-tokens@3.0.1
+690 info postinstall js-tokens@3.0.1
+691 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/lodash.isequal
+692 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/lodash.isequal
+693 info preinstall lodash.isequal@4.5.0
+694 info linkStuff lodash.isequal@4.5.0
+695 silly linkStuff lodash.isequal@4.5.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+696 verbose linkBins lodash.isequal@4.5.0
+697 verbose linkMans lodash.isequal@4.5.0
+698 verbose rebuildBundles lodash.isequal@4.5.0
+699 info install lodash.isequal@4.5.0
+700 info postinstall lodash.isequal@4.5.0
+701 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/loose-envify
+702 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/loose-envify
+703 info preinstall loose-envify@1.3.1
+704 info linkStuff loose-envify@1.3.1
+705 silly linkStuff loose-envify@1.3.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+706 verbose linkBins loose-envify@1.3.1
+707 verbose link bins [ { 'loose-envify': 'cli.js' },
+707 verbose link bins   '/home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin',
+707 verbose link bins   false ]
+708 verbose linkMans loose-envify@1.3.1
+709 verbose rebuildBundles loose-envify@1.3.1
+710 silly gentlyRm /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/loose-envify is being purged
+711 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/loose-envify
+712 silly vacuum-fs purging /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/loose-envify
+713 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin
+714 info install loose-envify@1.3.1
+715 info postinstall loose-envify@1.3.1
+716 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/media-typer
+717 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/media-typer
+718 info preinstall media-typer@0.3.0
+719 info linkStuff media-typer@0.3.0
+720 silly linkStuff media-typer@0.3.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+721 verbose linkBins media-typer@0.3.0
+722 verbose linkMans media-typer@0.3.0
+723 verbose rebuildBundles media-typer@0.3.0
+724 info install media-typer@0.3.0
+725 info postinstall media-typer@0.3.0
+726 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/merge-descriptors
+727 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/merge-descriptors
+728 info preinstall merge-descriptors@1.0.1
+729 info linkStuff merge-descriptors@1.0.1
+730 silly linkStuff merge-descriptors@1.0.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+731 verbose linkBins merge-descriptors@1.0.1
+732 verbose linkMans merge-descriptors@1.0.1
+733 verbose rebuildBundles merge-descriptors@1.0.1
+734 info install merge-descriptors@1.0.1
+735 info postinstall merge-descriptors@1.0.1
+736 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/methods
+737 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/methods
+738 info preinstall methods@1.1.2
+739 info linkStuff methods@1.1.2
+740 silly linkStuff methods@1.1.2 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+741 verbose linkBins methods@1.1.2
+742 verbose linkMans methods@1.1.2
+743 verbose rebuildBundles methods@1.1.2
+744 info install methods@1.1.2
+745 info postinstall methods@1.1.2
+746 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime
+747 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime
+748 info preinstall mime@1.3.4
+749 info linkStuff mime@1.3.4
+750 silly linkStuff mime@1.3.4 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+751 verbose linkBins mime@1.3.4
+752 verbose link bins [ { mime: 'cli.js' },
+752 verbose link bins   '/home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin',
+752 verbose link bins   false ]
+753 verbose linkMans mime@1.3.4
+754 verbose rebuildBundles mime@1.3.4
+755 silly gentlyRm /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/mime is being purged
+756 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/mime
+757 silly vacuum-fs purging /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin/mime
+758 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/projects/simple-rest-api/node_modules/.bin
+759 info install mime@1.3.4
+760 info postinstall mime@1.3.4
+761 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-db
+762 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-db
+763 info preinstall mime-db@1.27.0
+764 info linkStuff mime-db@1.27.0
+765 silly linkStuff mime-db@1.27.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+766 verbose linkBins mime-db@1.27.0
+767 verbose linkMans mime-db@1.27.0
+768 verbose rebuildBundles mime-db@1.27.0
+769 info install mime-db@1.27.0
+770 info postinstall mime-db@1.27.0
+771 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-types
+772 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/mime-types
+773 info preinstall mime-types@2.1.15
+774 info linkStuff mime-types@2.1.15
+775 silly linkStuff mime-types@2.1.15 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+776 verbose linkBins mime-types@2.1.15
+777 verbose linkMans mime-types@2.1.15
+778 verbose rebuildBundles mime-types@2.1.15
+779 info install mime-types@2.1.15
+780 info postinstall mime-types@2.1.15
+781 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment
+782 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/moment
+783 info preinstall moment@2.18.1
+784 info linkStuff moment@2.18.1
+785 silly linkStuff moment@2.18.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+786 verbose linkBins moment@2.18.1
+787 verbose linkMans moment@2.18.1
+788 verbose rebuildBundles moment@2.18.1
+789 info install moment@2.18.1
+790 info postinstall moment@2.18.1
+791 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ms
+792 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ms
+793 info preinstall ms@2.0.0
+794 info linkStuff ms@2.0.0
+795 silly linkStuff ms@2.0.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+796 verbose linkBins ms@2.0.0
+797 verbose linkMans ms@2.0.0
+798 verbose rebuildBundles ms@2.0.0
+799 info install ms@2.0.0
+800 info postinstall ms@2.0.0
+801 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/negotiator
+802 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/negotiator
+803 info preinstall negotiator@0.6.1
+804 info linkStuff negotiator@0.6.1
+805 silly linkStuff negotiator@0.6.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+806 verbose linkBins negotiator@0.6.1
+807 verbose linkMans negotiator@0.6.1
+808 verbose rebuildBundles negotiator@0.6.1
+809 info install negotiator@0.6.1
+810 info postinstall negotiator@0.6.1
+811 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/node-fetch
+812 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/node-fetch
+813 info preinstall node-fetch@1.6.3
+814 info linkStuff node-fetch@1.6.3
+815 silly linkStuff node-fetch@1.6.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+816 verbose linkBins node-fetch@1.6.3
+817 verbose linkMans node-fetch@1.6.3
+818 verbose rebuildBundles node-fetch@1.6.3
+819 info install node-fetch@1.6.3
+820 info postinstall node-fetch@1.6.3
+821 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/object-assign
+822 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/object-assign
+823 info preinstall object-assign@4.1.1
+824 info linkStuff object-assign@4.1.1
+825 silly linkStuff object-assign@4.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+826 verbose linkBins object-assign@4.1.1
+827 verbose linkMans object-assign@4.1.1
+828 verbose rebuildBundles object-assign@4.1.1
+829 info install object-assign@4.1.1
+830 info postinstall object-assign@4.1.1
+831 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/on-finished
+832 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/on-finished
+833 info preinstall on-finished@2.3.0
+834 info linkStuff on-finished@2.3.0
+835 silly linkStuff on-finished@2.3.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+836 verbose linkBins on-finished@2.3.0
+837 verbose linkMans on-finished@2.3.0
+838 verbose rebuildBundles on-finished@2.3.0
+839 info install on-finished@2.3.0
+840 info postinstall on-finished@2.3.0
+841 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/parseurl
+842 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/parseurl
+843 info preinstall parseurl@1.3.1
+844 info linkStuff parseurl@1.3.1
+845 silly linkStuff parseurl@1.3.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+846 verbose linkBins parseurl@1.3.1
+847 verbose linkMans parseurl@1.3.1
+848 verbose rebuildBundles parseurl@1.3.1
+849 info install parseurl@1.3.1
+850 info postinstall parseurl@1.3.1
+851 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/path-to-regexp
+852 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/path-to-regexp
+853 info preinstall path-to-regexp@0.1.7
+854 info linkStuff path-to-regexp@0.1.7
+855 silly linkStuff path-to-regexp@0.1.7 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+856 verbose linkBins path-to-regexp@0.1.7
+857 verbose linkMans path-to-regexp@0.1.7
+858 verbose rebuildBundles path-to-regexp@0.1.7
+859 info install path-to-regexp@0.1.7
+860 info postinstall path-to-regexp@0.1.7
+861 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/promise
+862 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/promise
+863 info preinstall promise@7.1.1
+864 info linkStuff promise@7.1.1
+865 silly linkStuff promise@7.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+866 verbose linkBins promise@7.1.1
+867 verbose linkMans promise@7.1.1
+868 verbose rebuildBundles promise@7.1.1
+869 info install promise@7.1.1
+870 info postinstall promise@7.1.1
+871 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/proxy-addr
+872 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/proxy-addr
+873 info preinstall proxy-addr@1.1.4
+874 info linkStuff proxy-addr@1.1.4
+875 silly linkStuff proxy-addr@1.1.4 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+876 verbose linkBins proxy-addr@1.1.4
+877 verbose linkMans proxy-addr@1.1.4
+878 verbose rebuildBundles proxy-addr@1.1.4
+879 info install proxy-addr@1.1.4
+880 info postinstall proxy-addr@1.1.4
+881 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/qs
+882 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/qs
+883 info preinstall qs@6.4.0
+884 info linkStuff qs@6.4.0
+885 silly linkStuff qs@6.4.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+886 verbose linkBins qs@6.4.0
+887 verbose linkMans qs@6.4.0
+888 verbose rebuildBundles qs@6.4.0
+889 info install qs@6.4.0
+890 info postinstall qs@6.4.0
+891 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/query-string
+892 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/query-string
+893 info preinstall query-string@4.3.4
+894 info linkStuff query-string@4.3.4
+895 silly linkStuff query-string@4.3.4 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+896 verbose linkBins query-string@4.3.4
+897 verbose linkMans query-string@4.3.4
+898 verbose rebuildBundles query-string@4.3.4
+899 info install query-string@4.3.4
+900 info postinstall query-string@4.3.4
+901 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/range-parser
+902 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/range-parser
+903 info preinstall range-parser@1.2.0
+904 info linkStuff range-parser@1.2.0
+905 silly linkStuff range-parser@1.2.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+906 verbose linkBins range-parser@1.2.0
+907 verbose linkMans range-parser@1.2.0
+908 verbose rebuildBundles range-parser@1.2.0
+909 info install range-parser@1.2.0
+910 info postinstall range-parser@1.2.0
+911 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/raw-body
+912 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/raw-body
+913 info preinstall raw-body@2.2.0
+914 info linkStuff raw-body@2.2.0
+915 silly linkStuff raw-body@2.2.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+916 verbose linkBins raw-body@2.2.0
+917 verbose linkMans raw-body@2.2.0
+918 verbose rebuildBundles raw-body@2.2.0
+919 info install raw-body@2.2.0
+920 info postinstall raw-body@2.2.0
+921 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs
+922 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs
+923 info preinstall react-chartjs@0.8.0
+924 info linkStuff react-chartjs@0.8.0
+925 silly linkStuff react-chartjs@0.8.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+926 verbose linkBins react-chartjs@0.8.0
+927 verbose linkMans react-chartjs@0.8.0
+928 verbose rebuildBundles react-chartjs@0.8.0
+929 info install react-chartjs@0.8.0
+930 info postinstall react-chartjs@0.8.0
+931 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs-2
+932 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/react-chartjs-2
+933 info preinstall react-chartjs-2@2.1.0
+934 info linkStuff react-chartjs-2@2.1.0
+935 silly linkStuff react-chartjs-2@2.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+936 verbose linkBins react-chartjs-2@2.1.0
+937 verbose linkMans react-chartjs-2@2.1.0
+938 verbose rebuildBundles react-chartjs-2@2.1.0
+939 info install react-chartjs-2@2.1.0
+940 info postinstall react-chartjs-2@2.1.0
+941 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/regenerator-runtime
+942 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/regenerator-runtime
+943 info preinstall regenerator-runtime@0.10.5
+944 info linkStuff regenerator-runtime@0.10.5
+945 silly linkStuff regenerator-runtime@0.10.5 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+946 verbose linkBins regenerator-runtime@0.10.5
+947 verbose linkMans regenerator-runtime@0.10.5
+948 verbose rebuildBundles regenerator-runtime@0.10.5
+949 info install regenerator-runtime@0.10.5
+950 info postinstall regenerator-runtime@0.10.5
+951 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/send
+952 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/send
+953 info preinstall send@0.15.3
+954 info linkStuff send@0.15.3
+955 silly linkStuff send@0.15.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+956 verbose linkBins send@0.15.3
+957 verbose linkMans send@0.15.3
+958 verbose rebuildBundles send@0.15.3
+959 info install send@0.15.3
+960 info postinstall send@0.15.3
+961 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/serve-static
+962 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/serve-static
+963 info preinstall serve-static@1.12.3
+964 info linkStuff serve-static@1.12.3
+965 silly linkStuff serve-static@1.12.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+966 verbose linkBins serve-static@1.12.3
+967 verbose linkMans serve-static@1.12.3
+968 verbose rebuildBundles serve-static@1.12.3
+969 info install serve-static@1.12.3
+970 info postinstall serve-static@1.12.3
+971 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setimmediate
+972 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setimmediate
+973 info preinstall setimmediate@1.0.5
+974 info linkStuff setimmediate@1.0.5
+975 silly linkStuff setimmediate@1.0.5 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+976 verbose linkBins setimmediate@1.0.5
+977 verbose linkMans setimmediate@1.0.5
+978 verbose rebuildBundles setimmediate@1.0.5
+979 info install setimmediate@1.0.5
+980 info postinstall setimmediate@1.0.5
+981 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setprototypeof
+982 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/setprototypeof
+983 info preinstall setprototypeof@1.0.3
+984 info linkStuff setprototypeof@1.0.3
+985 silly linkStuff setprototypeof@1.0.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+986 verbose linkBins setprototypeof@1.0.3
+987 verbose linkMans setprototypeof@1.0.3
+988 verbose rebuildBundles setprototypeof@1.0.3
+989 info install setprototypeof@1.0.3
+990 info postinstall setprototypeof@1.0.3
+991 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/statuses
+992 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/statuses
+993 info preinstall statuses@1.3.1
+994 info linkStuff statuses@1.3.1
+995 silly linkStuff statuses@1.3.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+996 verbose linkBins statuses@1.3.1
+997 verbose linkMans statuses@1.3.1
+998 verbose rebuildBundles statuses@1.3.1
+999 info install statuses@1.3.1
+1000 info postinstall statuses@1.3.1
+1001 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/strict-uri-encode
+1002 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/strict-uri-encode
+1003 info preinstall strict-uri-encode@1.1.0
+1004 info linkStuff strict-uri-encode@1.1.0
+1005 silly linkStuff strict-uri-encode@1.1.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1006 verbose linkBins strict-uri-encode@1.1.0
+1007 verbose linkMans strict-uri-encode@1.1.0
+1008 verbose rebuildBundles strict-uri-encode@1.1.0
+1009 info install strict-uri-encode@1.1.0
+1010 info postinstall strict-uri-encode@1.1.0
+1011 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/type-is
+1012 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/type-is
+1013 info preinstall type-is@1.6.15
+1014 info linkStuff type-is@1.6.15
+1015 silly linkStuff type-is@1.6.15 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1016 verbose linkBins type-is@1.6.15
+1017 verbose linkMans type-is@1.6.15
+1018 verbose rebuildBundles type-is@1.6.15
+1019 info install type-is@1.6.15
+1020 info postinstall type-is@1.6.15
+1021 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ua-parser-js
+1022 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/ua-parser-js
+1023 info preinstall ua-parser-js@0.7.12
+1024 info linkStuff ua-parser-js@0.7.12
+1025 silly linkStuff ua-parser-js@0.7.12 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1026 verbose linkBins ua-parser-js@0.7.12
+1027 verbose linkMans ua-parser-js@0.7.12
+1028 verbose rebuildBundles ua-parser-js@0.7.12
+1029 info install ua-parser-js@0.7.12
+1030 info postinstall ua-parser-js@0.7.12
+1031 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/unpipe
+1032 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/unpipe
+1033 info preinstall unpipe@1.0.0
+1034 info linkStuff unpipe@1.0.0
+1035 silly linkStuff unpipe@1.0.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1036 verbose linkBins unpipe@1.0.0
+1037 verbose linkMans unpipe@1.0.0
+1038 verbose rebuildBundles unpipe@1.0.0
+1039 info install unpipe@1.0.0
+1040 info postinstall unpipe@1.0.0
+1041 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/utils-merge
+1042 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/utils-merge
+1043 info preinstall utils-merge@1.0.0
+1044 info linkStuff utils-merge@1.0.0
+1045 silly linkStuff utils-merge@1.0.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1046 verbose linkBins utils-merge@1.0.0
+1047 verbose linkMans utils-merge@1.0.0
+1048 verbose rebuildBundles utils-merge@1.0.0
+1049 info install utils-merge@1.0.0
+1050 info postinstall utils-merge@1.0.0
+1051 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/vary
+1052 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/vary
+1053 info preinstall vary@1.1.1
+1054 info linkStuff vary@1.1.1
+1055 silly linkStuff vary@1.1.1 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1056 verbose linkBins vary@1.1.1
+1057 verbose linkMans vary@1.1.1
+1058 verbose rebuildBundles vary@1.1.1
+1059 info install vary@1.1.1
+1060 info postinstall vary@1.1.1
+1061 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/warning
+1062 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/warning
+1063 info preinstall warning@3.0.0
+1064 info linkStuff warning@3.0.0
+1065 silly linkStuff warning@3.0.0 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1066 verbose linkBins warning@3.0.0
+1067 verbose linkMans warning@3.0.0
+1068 verbose rebuildBundles warning@3.0.0
+1069 info install warning@3.0.0
+1070 info postinstall warning@3.0.0
+1071 verbose rebuild bundle /home/ubuntu/workspace/projects/simple-rest-api/node_modules/whatwg-fetch
+1072 info build /home/ubuntu/workspace/projects/simple-rest-api/node_modules/whatwg-fetch
+1073 info preinstall whatwg-fetch@2.0.3
+1074 info linkStuff whatwg-fetch@2.0.3
+1075 silly linkStuff whatwg-fetch@2.0.3 has /home/ubuntu/workspace/projects/simple-rest-api/node_modules as its parent node_modules
+1076 verbose linkBins whatwg-fetch@2.0.3
+1077 verbose linkMans whatwg-fetch@2.0.3
+1078 verbose rebuildBundles whatwg-fetch@2.0.3
+1079 info install whatwg-fetch@2.0.3
+1080 info postinstall whatwg-fetch@2.0.3
+1081 info install simple-rest-api@
+1082 info postinstall simple-rest-api@
+1083 info prepublish simple-rest-api@
+1084 verbose validateInstall loading /home/ubuntu/workspace/projects/simple-rest-api/package.json for validation
+1085 verbose stack Error: The package chart.js@1.1.1 does not satisfy its siblings' peerDependencies requirements!
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/install.js:125:32
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/install.js:268:7
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1085 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1085 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1085 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1085 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1086 verbose cwd /home/ubuntu/workspace/projects/simple-rest-api
+1087 error Linux 4.9.17-c9
+1088 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install"
+1089 error node v4.6.1
+1090 error npm  v2.15.9
+1091 error code EPEERINVALID
+1092 error peerinvalid The package chart.js@1.1.1 does not satisfy its siblings' peerDependencies requirements!
+1092 error peerinvalid Peer react-chartjs@0.8.0 wants chart.js@^1.1.1
+1092 error peerinvalid Peer react-chartjs-2@2.1.0 wants chart.js@^2.3
+1093 verbose exit [ 1, true ]

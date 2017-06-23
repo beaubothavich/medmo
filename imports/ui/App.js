@@ -15,8 +15,8 @@ export class App extends React.Component {
         return (
             <div>
              <Navigation/>
-             <h1>HomePage</h1>
-             <Readings temp={this.props.temp}/>
+             <h1>Dashboard</h1>
+             <Readings temp={this.props.temp} tempAll={this.props.tempAll}/>
             </div>
         );
     }
@@ -24,12 +24,17 @@ export class App extends React.Component {
 
 export default createContainer(() => {
     Meteor.subscribe('temp');
-    //let temp = Temp.find().fetch();
+    let tempAll = Temp.find().fetch();
     let temp = Temp.find({}, {limit:1, sort: {created_on:-1}}).fetch();
     return { 
         temp: temp.map((temp) => {
             return {
               ...temp
+            }
+        }),
+        tempAll: tempAll.map((tempAll) => {
+            return {
+                ...tempAll
             }
         })
     };
