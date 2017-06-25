@@ -49,7 +49,7 @@ export default class Readings extends React.Component {
         let formatted = [];
         this.props.tempAll.map((attr) => {
             temp.push(attr.temp);
-            formatted.push(moment(attr.created_on).format('MMMM Do YYYY,[\n]h:mm:ss a'));
+            formatted.push(moment(attr.created_on).format('DD/MM/YY HH:mm:ss'));
         });
         //console.log(temp);
         //console.log(formatted);
@@ -65,7 +65,7 @@ export default class Readings extends React.Component {
         ];
         
         return (
-    	    <LineChart width={1700} height={600} data={data} margin={{top: 5, right: 30, left: 20, bottom: 5}}>
+    	    <LineChart width={600} height={300} data={data} margin={{top: 5, right: 30, left: 20, bottom: 5}}>
              <XAxis dataKey="name"/>
              <YAxis/>
              <CartesianGrid strokeDasharray="3 3"/>
