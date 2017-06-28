@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
-import { createContainer } from 'meteor/react-meteor-data'
+import { createContainer } from 'meteor/react-meteor-data';
+import { Accounts } from 'meteor/accounts-base';
 
 import { Temp } from './../api/temp';
 
@@ -11,6 +12,11 @@ import Navigation from './Navigation';
 import Readings from './Readings';
     
 export class App extends React.Component {
+    onLogout() {
+        //browserHistory.push('/');
+        Accounts.logout();
+    }
+    
     render() { 
         return (
             <div>
@@ -29,7 +35,7 @@ export default createContainer(() => {
     return { 
         temp: temp.map((temp) => {
             return {
-              ...temp
+                ...temp
             }
         }),
         tempAll: tempAll.map((tempAll) => {

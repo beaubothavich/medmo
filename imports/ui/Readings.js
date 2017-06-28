@@ -49,19 +49,19 @@ export default class Readings extends React.Component {
         let formatted = [];
         this.props.tempAll.map((attr) => {
             temp.push(attr.temp);
-            formatted.push(moment(attr.created_on).format('DD/MM/YY HH:mm:ss'));
+            formatted.push(moment(attr.created_on).format('MM/DD/YY HH:mm'));
         });
         //console.log(temp);
         //console.log(formatted);
         
          let data = [
-            {name: formatted[formatted.length-1200], Temperature: temp[temp.length-1200], Threshold: 35},
-            {name: formatted[formatted.length-1000], Temperature: temp[temp.length-1000], Threshold: 35},
-            {name: formatted[formatted.length-800], Temperature: temp[temp.length-800], Threshold: 35},
-            {name: formatted[formatted.length-600], Temperature: temp[temp.length-600], Threshold: 35},
-            {name: formatted[formatted.length-400], Temperature: temp[temp.length-400], Threshold: 35},
-            {name: formatted[formatted.length-200], Temperature: temp[temp.length-200], Threshold: 35},
-            {name: formatted[formatted.length-1], Temperature: temp[temp.length-1], Threshold: 35}
+            {name: formatted[formatted.length-1200], Temperature: temp[temp.length-1200], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-1000], Temperature: temp[temp.length-1000], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-800], Temperature: temp[temp.length-800], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-600], Temperature: temp[temp.length-600], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-400], Temperature: temp[temp.length-400], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-200], Temperature: temp[temp.length-200], MaxThreshold: 35, MinThreshold: 2},
+            {name: formatted[formatted.length-1], Temperature: temp[temp.length-1], MaxThreshold: 35, MinThreshold: 2}
         ];
         
         return (
@@ -72,7 +72,8 @@ export default class Readings extends React.Component {
              <Tooltip/>
              <Legend/>
              <Line type="monotone" dataKey="Temperature" stroke="#8884d8" activeDot={{r: 8}}/>
-             <Line type="monotone" dataKey="Threshold" stroke="#82ca9d" />
+             <Line type="monotone" dataKey="MaxThreshold" stroke="#C70039" />
+             <Line type="monotone" dataKey="MinThreshold" stroke="#33A8FF" />
             </LineChart>
         );
     }
