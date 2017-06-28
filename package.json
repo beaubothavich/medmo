@@ -19,5 +19,8 @@
     "react-svg-gauge": "^1.0.4",
     "recharts": "^1.0.0-alpha.0",
     "simpl-schema": "0.0.3"
+  },
+  "engines": {
+    "node": "4.8.2"
   }
 }
