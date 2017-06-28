@@ -8,6 +8,7 @@ import { Session } from 'meteor/session';
 import { routes, onAuthChange } from './../imports/routes/routes';
 import App from './../imports/ui/App';
 import { Temp } from './../imports/api/temp';
+import '../imports/startup/simple-schema-configuration.js';
 
 //Meteor.subscribe('temp');
   Tracker.autorun(function () {
